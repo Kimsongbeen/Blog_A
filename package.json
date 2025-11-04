@@ -1,0 +1,29 @@
+{
+  "name": "blog_a",
+  "version": "1.0.0",
+  "description": "Node.js와 Express를 사용해 만든 간단한 블로그 API 프로젝트로 신입 백엔드 개발자가 CRUD 기능과 배포 경험을 쌓기 위해 만든 미니 프로젝트입니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimsongbeen/Blog_A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kimsongbeen/Blog_A/issues"
+  },
+  "homepage": "https://github.com/Kimsongbeen/Blog_A#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
